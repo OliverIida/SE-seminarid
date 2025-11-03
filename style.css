@@ -1,0 +1,86 @@
+/*Üldine lehekujundus*/
+body {
+    background-color: #678ed7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/*Pealkiri*/
+h1 {
+    color: #003366;
+    font-size: 42px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    grid-column: span 2; /*et h1 ulatuks üle mõlema veeru*/
+}
+
+/*Tavaline tekst*/
+p {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/*Pilt*/
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #004080; /* raam */
+    box-shadow: 0 0 35px rgba(0, 0, 0, 1); /* vari */
+    border-radius: 50px;
+}
+
+/*Alapealkiri*/
+h2 {
+    color: #004080;
+    font-family: 'Georgia', serif;
+    font-size: 26px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+/*Nimekiri*/
+ul {
+    font-size: 18px;
+    color: #222;
+}
+
+/*Tabel*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+}
+
+/*Lingid*/
+a {
+    color: #0040ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #002080;
+    text-decoration: underline;
+}
