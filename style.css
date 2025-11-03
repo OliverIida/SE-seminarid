@@ -4,9 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
 }
 
 /*Pealkiri*/
